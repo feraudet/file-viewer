@@ -2,7 +2,7 @@
 
 A local HTTP server that renders Markdown, JSON, YAML, TOML, and CSV files with a modern web interface. Designed for iTerm2's browser pane integration.
 
-![Version](https://img.shields.io/badge/version-1.9.0-blue)
+![Version](https://img.shields.io/badge/version-1.10.0-blue)
 ![Go](https://img.shields.io/badge/Go-1.21+-00ADD8?logo=go)
 ![License](https://img.shields.io/badge/license-MIT-green)
 
@@ -191,6 +191,10 @@ The server uses sensible defaults:
 - **Port**: 4120
 - **Max file size**: 5MB (larger files are not rendered)
 - **CDN cache**: `~/.cache/file-viewer/cdn/`
+
+## API Documentation
+
+See [API.md](API.md) for complete API documentation.
 
 ## License
 

@@ -1,6 +1,6 @@
 # Roadmap
 
-> Dernière mise à jour : 2026-01-08 (PlantUML support)
+> Dernière mise à jour : 2026-01-08 (Tests unitaires et documentation API)
 
 ## Vision
 
@@ -37,10 +37,17 @@ File Viewer est un serveur HTTP local qui rend les fichiers Markdown, JSON, HTML
 - [x] **[Feature]** Prévisualisation des liens internes au survol
 - [x] **[Feature]** Support des diagrammes PlantUML
 - [x] **[Feature]** Thèmes personnalisables
-- [ ] **[Chore]** Tests unitaires pour les fonctions de rendu
-- [ ] **[Docs]** Documentation API complète
+- [x] **[Chore]** Tests unitaires pour les fonctions de rendu
+- [x] **[Docs]** Documentation API complète
 
 ## Historique des versions
+
+### v1.10.0 - 2026-01-08
+- Tests unitaires complets pour toutes les fonctions de rendu
+- Tests pour Markdown, JSON, YAML, TOML, CSV, PlantUML
+- Tests pour les helpers (slugify, replaceEmojis, parseCSVLine)
+- Benchmarks de performance
+- Documentation API complète (API.md)
 
 ### v1.9.0 - 2026-01-08
 - Support des diagrammes PlantUML via ```plantuml ou ```puml
